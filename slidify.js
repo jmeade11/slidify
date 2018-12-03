@@ -116,9 +116,7 @@
     
     init();
 
-    return this.css({
-      height: slider.settings.height
-    });
+    return this.addClass('slider').css({ height: slider.settings.height });
     
   };
 
